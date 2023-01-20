@@ -1,4 +1,4 @@
-package ChapterNine;
+package ch09;
 
 /**
  * Author: Jason D'Oyley
@@ -9,7 +9,7 @@ package ChapterNine;
  */
 public class ExcTest {
     // Generate an exception
-    static void genException () {
+    static void genException() {
         int[] nums = new int[4];
 
         System.out.println("Before exception is generated.");
@@ -21,7 +21,7 @@ public class ExcTest {
 }
 
 class ExcDemo2 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         try {
             ExcTest.genException();
         } catch (ArrayIndexOutOfBoundsException exc) {
